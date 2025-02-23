@@ -1,5 +1,3 @@
-Here's a polished and engaging version of your **GitHub README.md** with better phrasing and emojis to enhance readability:  
-
 ---
 
 # 🚛 Moving Company Services (MCS)  
@@ -66,101 +64,50 @@ The goal of this project is to create a **modern, user-friendly website** that h
 
 ---
 
-This README provides a **clear, structured overview** of the project while keeping it **engaging and easy to read**. Let me know if you'd like any refinements! 🚀 
-# Stakeholder Mapping 
+# 📌 Requirements Specification  
 
-Key Stakeholders & Their Roles 
+## 🛠️ **1. Functional Requirements**  
 
-Stakeholder 
+The system should provide the following **core functionalities**:  
 
-Role in the Project 
+✅ **Service Listing Page** (**MUST**) – Displays a detailed list of moving services (e.g., **local moving, long-distance moving, packing**). 📦  
+✅ **Quote Request Form** (**MUST**) – Allows customers to **submit a request** for a price estimate. 📝  
+✅ **Online Booking System** (**SHOULD**) – Enables customers to **schedule a move online**. 📅  
+✅ **Customer Reviews & Testimonials** (**SHOULD**) – Displays **reviews from past customers** to build trust. ⭐  
+✅ **Contact Page** (**MUST**) – Provides **phone, email, and a contact form** for inquiries. 📞  
+✅ **SEO Optimization** (**COULD**) – Improves **search engine rankings** for better visibility. 🔍  
+✅ **Live Chat Support** (**COULD**) – Offers **real-time chat assistance** for customers. 💬  
 
-Moving Company Owner 
+---
 
-Customer / Business Owner - Commissions and approves the project, provides requirements, and uses the website to grow the business. 
+## 🔐 **2. Non-Functional Requirements**  
 
-Potential Customers 
+The system should meet the following **quality standards**:  
 
-End Users - Use the website to learn about services, request quotes, and book moving services. 
+⚡ **Performance** (**MUST**) – The website should **load within 2–3 seconds** to prevent high bounce rates.  
+🔒 **Security** (**MUST**) – The system should use **SSL encryption** to protect customer data.  
+📱 **Usability** (**SHOULD**) – The website should be **mobile-friendly** and **intuitive** for users.  
+📈 **Scalability** (**COULD**) – The system should support **future expansions**, such as additional locations or features.  
+♿ **Accessibility** (**SHOULD**) – The website should **comply with WCAG 2.1 guidelines** to support users with disabilities.  
 
-Website Developer 
+---
 
-Developer - Builds and implements the website according to requirements. 
+## 📊 **3. Prioritization of Requirements (MoSCoW Method)**  
 
-UI/UX Designer 
+The following table shows the prioritization of features based on their **importance**:  
 
-Designer - Ensures a user-friendly and attractive website layout. 
+| 🚀 **Requirement** | 🎯 **Priority** |  
+|--------------------|---------------|  
+| 📋 **Service Listing Page** | **MUST** |  
+| 📝 **Quote Request Form** | **MUST** |  
+| 📞 **Contact Page** | **MUST** |  
+| 📅 **Online Booking System** | **SHOULD** |  
+| ⭐ **Customer Reviews Section** | **SHOULD** |  
+| 🔍 **SEO Optimization** | **COULD** |  
+| 💬 **Live Chat Support** | **COULD** |  
 
-SEO Specialist 
+---
 
-Optimizer - Works on search engine visibility to increase website traffic. 
-
-Tester / QA Specialist 
-
-Tester - Ensures the website functions correctly and is free of bugs. 
-# Requirements Specification 
-
-1. Functional Requirements 
-
-The system should provide the following core functionalities: 
-
-Service Listing Page (MUST) – Display a detailed list of moving services (e.g., local moving, long-distance moving, packing). 
-
-Quote Request Form (MUST) – Allow customers to submit a request for a price estimate. 
-
-Online Booking System (SHOULD) – Enable customers to schedule a move online. 
-
-Customer Reviews & Testimonials (SHOULD) – Display reviews from past customers to build trust. 
-
-Contact Page (MUST) – Provide phone, email, and a contact form for inquiries. 
-
-SEO Optimization (COULD) – Improve search engine rankings for better visibility. 
-
-Live Chat Support (COULD) – Offer real-time chat assistance for customers. 
-# 2. Non-Functional Requirements 
-
-Performance (MUST) – The website should load within 2–3 seconds to prevent high bounce rates. 
-
-Security (MUST) – The system should use SSL encryption to protect customer data. 
-
-Usability (SHOULD) – The website should be mobile-friendly and intuitive for users. 
-
-Scalability (COULD) – The system should support future expansions, such as additional locations or features. 
-
-Accessibility (SHOULD) – The website should comply with WCAG 2.1 guidelines for users with disabilities. 
-# 3. Prioritization of Requirements (MoSCoW Method) 
-
-Requirement 
-
-Priority 
-
-Service Listing Page 
-
-MUST 
-
-Quote Request Form 
-
-MUST 
-
-Contact Page 
-
-MUST 
-
-Online Booking System 
-
-SHOULD 
-
-Customer Reviews Section 
-
-SHOULD 
-
-SEO Optimization 
-
-COULD 
-
-Live Chat Support 
-
-COULD 
 
  
  
