@@ -13,7 +13,7 @@ Vision / Problem Statement
 
 The goal of this project is to create a professionally designed website for a moving company owner to attract more customers and showcase services online. The website should enhance the company's digital presence, making it easier for potential customers to find, contact, and book services. 
 
-Clear Goals & Deliverables 
+* Clear Goals & Deliverables 
 
 Features to be Delivered: 
 
