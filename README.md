@@ -22,7 +22,7 @@ This project involves developing a **professionally designed website** for a mov
 
 ## 🚀 Vision & Goals  
 
-### **Vision / Problem Statement**  
+### **Vision **  
 The goal of this project is to create a **modern, user-friendly website** that helps a **moving company owner** attract more customers and **showcase services online**. This platform will **enhance the company's digital presence**, making it easier for potential customers to:  
 
 ✅ Find the business 🔍  
