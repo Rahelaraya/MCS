@@ -109,7 +109,7 @@ The following table shows the prioritization of features based on their **import
 # 🛠️ Tech Stack & Roles  
 
 ## **Tech Stack**  
-- **.NET SDK** – Used for backend development and application logic.  
+- **C# / .NET Core** – Used for backend development and application logic.  
 - **SQL Server** – Manages the database for storing customer data, bookings, and service information.  
 - **Git** – Version control system for tracking code changes and collaboration.  
  
