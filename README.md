@@ -106,7 +106,7 @@ The following table shows the prioritization of features based on their **import
 
 ---
 
-# 🛠️ Tech Stack & Roles  
+# 🛠️ Tech Stack 
 
 ## **Tech Stack**  
 - **C# / .NET Core** – Used for backend development and application logic.  
