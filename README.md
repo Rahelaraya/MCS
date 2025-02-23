@@ -13,30 +13,30 @@ Vision / Problem Statement
 
 The goal of this project is to create a professionally designed website for a moving company owner to attract more customers and showcase services online. The website should enhance the company's digital presence, making it easier for potential customers to find, contact, and book services. 
 
-* Clear Goals & Deliverables 
+Clear Goals & Deliverables 
 
-Features to be Delivered: 
+1. Features to be Delivered: 
 
-A responsive and modern website design 
+* A responsive and modern website design 
 
-A homepage with company information and service highlights 
+* A homepage with company information and service highlights 
 
-A service listing page describing available moving services 
+* A service listing page describing available moving services 
 
-An online quote request form for potential customers 
+* An online quote request form for potential customers 
 
-A customer testimonials section to build trust 
+* A customer testimonials section to build trust 
 
-A contact page with phone, email, and a booking request form 
+* A contact page with phone, email, and a booking request form 
 
-SEO optimization to improve online visibility 
+* SEO optimization to improve online visibility 
 
-Success Metrics: 
+2. Success Metrics: 
 
-Increased customer inquiries and quote requests 
+* Increased customer inquiries and quote requests 
 
-Higher engagement and website traffic through SEO improvements 
+* Higher engagement and website traffic through SEO improvements 
 
-Positive customer feedback on ease of use and accessibility 
+* Positive customer feedback on ease of use and accessibility 
 
-Higher conversion rates from website visitors to paying customers 
+* Higher conversion rates from website visitors to paying customers 
