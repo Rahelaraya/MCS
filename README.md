@@ -74,7 +74,7 @@ The system should meet the following **quality standards**:
 🔒 **Security** (**MUST**) – The system should use **SSL encryption** to protect customer data.  
 📱 **Usability** (**SHOULD**) – The website should be **mobile-friendly** and **intuitive** for users.  
 📈 **Scalability** (**COULD**) – The system should support **future expansions**, such as additional locations or features.  
-♿ **Accessibility** (**SHOULD**) – The website should **comply with WCAG 2.1 guidelines** to support users with disabilities.  
+
 
 ---
 
