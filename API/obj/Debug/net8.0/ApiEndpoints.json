@@ -21,29 +21,23 @@
   },
   {
     "ContainingType": "API.Controllers.ServiceController",
-    "Method": "Post",
+    "Method": "Create",
     "RelativePath": "api/Service",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "value",
-        "Type": "System.String",
+        "Name": "service",
+        "Type": "Application.DTO.ServiceDto",
         "IsRequired": true
       }
     ],
-    "ReturnTypes": [
-      {
-        "Type": "System.Void",
-        "MediaTypes": [],
-        "StatusCode": 200
-      }
-    ]
+    "ReturnTypes": []
   },
   {
     "ContainingType": "API.Controllers.ServiceController",
-    "Method": "Get",
+    "Method": "GetById",
     "RelativePath": "api/Service/{id}",
     "HttpMethod": "GET",
     "IsController": true,
@@ -57,7 +51,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "System.String",
+        "Type": "Application.DTO.ServiceDto",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -69,7 +63,7 @@
   },
   {
     "ContainingType": "API.Controllers.ServiceController",
-    "Method": "Put",
+    "Method": "UpdateService",
     "RelativePath": "api/Service/{id}",
     "HttpMethod": "PUT",
     "IsController": true,
@@ -81,18 +75,12 @@
         "IsRequired": true
       },
       {
-        "Name": "value",
-        "Type": "System.String",
+        "Name": "service",
+        "Type": "Application.DTO.ServiceDto",
         "IsRequired": true
       }
     ],
-    "ReturnTypes": [
-      {
-        "Type": "System.Void",
-        "MediaTypes": [],
-        "StatusCode": 200
-      }
-    ]
+    "ReturnTypes": []
   },
   {
     "ContainingType": "API.Controllers.ServiceController",
@@ -108,12 +96,6 @@
         "IsRequired": true
       }
     ],
-    "ReturnTypes": [
-      {
-        "Type": "System.Void",
-        "MediaTypes": [],
-        "StatusCode": 200
-      }
-    ]
+    "ReturnTypes": []
   }
 ]
