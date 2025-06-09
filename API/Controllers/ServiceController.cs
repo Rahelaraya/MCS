@@ -1,6 +1,7 @@
 ﻿using Application.DTO;
 using Application.Interface;
 using Domain.Entities;
+using Microsoft.AspNetCore.Http.HttpResults;
 using Microsoft.AspNetCore.Mvc;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
@@ -31,27 +32,62 @@ namespace API.Controllers
 
         // GET api/<ServiceController>/5
         [HttpGet("{id}")]
-        public string Get(int id)
+        public async Task<ActionResult<ServiceDto>> GetById(int id)
         {
-            return "value";
+            var service = await _IServiceRepository.GetByIdAsync(id);
+            if (service == null)
+            {
+                return NotFound();
+            }
+            return Ok(service);
+        }
+  
+        // POST api/<ServiceController>
+       
+        [HttpPost]
+        public async Task<ActionResult> Create([FromBody] ServiceDto service)
+        {
+            if (service == null)
+            {
+                return BadRequest("Service data is null.");
+            }
+
+            try
+            {
+                // Replace 0 with actual userId if available
+                await _IServiceRepository.AddAsync(0, service);
+                return CreatedAtAction(nameof(GetById), new { id = service.Id }, service);
+            }
+            catch (Exception ex)
+            {
+                // Optional: Log the exception here
+                return StatusCode(500, $"Internal server error: {ex.Message}");
+            }
         }
 
-        // POST api/<ServiceController>
-        [HttpPost]
-        public void Post([FromBody] string value)
-        {
-        }
 
         // PUT api/<ServiceController>/5
         [HttpPut("{id}")]
-        public void Put(int id, [FromBody] string value)
+
+        public async Task<ActionResult> UpdateService(int id, ServiceDto service)
         {
+           if (id != service. Id) return BadRequest("Service ID mismatch.");
+
+             await _IServiceRepository.UpdateAsync(service);              
+             return NotFound();
+            
+           
+
         }
 
         // DELETE api/<ServiceController>/5
         [HttpDelete("{id}")]
-        public void Delete(int id)
+        public async Task<ActionResult> Delete(int id)
         {
+            await _IServiceRepository.DeleteAsync(id);
+            return NoContent();
         }
+
+
     }
 }
